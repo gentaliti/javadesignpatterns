@@ -1,0 +1,7 @@
+organization=gentaliti-github
+projectKey=com.gentaliti:java-design-patterns
+serverUrl=https://sonarcloud.io
+serverVersion=6.7.0.33301
+dashboardUrl=https://sonarcloud.io/dashboard/index/com.gentaliti:java-design-patterns
+ceTaskId=AWA85Pq9E5-t8Obqzszl
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWA85Pq9E5-t8Obqzszl
