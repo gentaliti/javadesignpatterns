@@ -1,3 +1,5 @@
+<a href="https://sonarcloud.io/dashboard/index/com.gentaliti%3Ajava-design-patterns"><img src="https://sonarcloud.io//api/badges/gate?key=com.gentaliti%3Ajava-design-patterns"/></a>
+
 # Design patterns implemented in Java 
 
 ## Introduction
