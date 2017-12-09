@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.gentaliti:common-config:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gentaliti/common-config/unknown/common-config-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gentaliti/common-config/unknown/common-config-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gentaliti/common-config/unknown/common-config-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

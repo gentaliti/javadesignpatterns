@@ -13,17 +13,18 @@
         <module name="facade" />
         <module name="factory" />
         <module name="iterator" />
-        <module name="javadesignpatterns" />
         <module name="observer" />
         <module name="proxy" />
         <module name="singleton" />
         <module name="state" />
+        <module name="strategy" />
         <module name="template-method" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="adapter" target="1.5" />
       <module name="command" target="1.5" />
+      <module name="commonconfig" target="1.5" />
       <module name="composite" target="1.5" />
       <module name="decorator" target="1.5" />
       <module name="facade" target="1.5" />
@@ -34,6 +35,7 @@
       <module name="proxy" target="1.5" />
       <module name="singleton" target="1.5" />
       <module name="state" target="1.5" />
+      <module name="strategy" target="1.5" />
       <module name="template-method" target="1.5" />
     </bytecodeTargetLevel>
   </component>
