@@ -9,12 +9,14 @@ Source: [Design Patterns: Elements of Reusable Object-Oriented Software](https:/
 </blockquote>
 
 # The Problem
-![alt text](#)
+![alt text](https://github.com/gentaliti/javadesignpatterns/blob/master/strategy/src/main/resources/images/strategy-problem.PNG)
+
 In this case we see that there are 4 different ducks extending the main Duck class. What if we have some ducks with the same flying methods, like in the picture above?  We need to copy and paste the same code from FlyDuck to CityDuck. This causes <b>code duplication</b> and the problem gets even bigger if we have a lot of ducks with similarities in flying, quacking etc.
 
 
 # The Solution
 From the definition above we see that we have the flying and quacking algorithms, but we need a way to extract those algorithms and inject them on specific ducks.
+![alt text](https://github.com/gentaliti/javadesignpatterns/blob/master/strategy/src/main/resources/images/strategy-solution.PNG)
 
 So we make strategies (interfaces) for flying. By doing so we are open to adding more types of "flying" functionality in the future.
 
