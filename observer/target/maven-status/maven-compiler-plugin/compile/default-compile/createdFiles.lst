@@ -1,0 +1,7 @@
+com\gentaliti\AppInit.class
+com\gentaliti\WeatherObservable.class
+com\gentaliti\SmartPhoneDisplay.class
+com\gentaliti\WeatherStation.class
+com\gentaliti\Display.class
+com\gentaliti\WeatherObserver.class
+com\gentaliti\LCDDisplay.class

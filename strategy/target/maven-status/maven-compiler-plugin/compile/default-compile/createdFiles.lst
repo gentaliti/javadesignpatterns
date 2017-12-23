@@ -1,3 +1,5 @@
 com\gentaliti\strategy\FlyStrategy.class
+com\gentaliti\strategy\AppInit.class
 com\gentaliti\strategy\Duck.class
 com\gentaliti\strategy\SimpleFly.class
+com\gentaliti\strategy\NoFly.class

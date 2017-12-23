@@ -28,7 +28,7 @@ Creational patterns implemented here are:
 ## Structural Patterns
 Structural patterns are concerned with how classes and objects are composed to form larger structures. Rather than composing interfaces or implemetations, these patterns describe ways to compose objects to realize new functionality.
 
-The ability to change the composition at runtime, adds flexibility to to object composition.
+The ability to change the composition at runtime, adds flexibility to object composition.
 
 Structural patterns implemented here are:
 - [Adapter](https://github.com/gentaliti/javadesignpatterns/tree/master/adapter) (in progress)
@@ -46,9 +46,9 @@ In simple words, they describe how different objects and classes send messages t
 Behavioral patterns implemented here are:
 - [Command](https://github.com/gentaliti/javadesignpatterns/tree/master/command) (in progress)
 - [Iterator](https://github.com/gentaliti/javadesignpatterns/tree/master/iterator) (in progress)
-- [Observer](https://github.com/gentaliti/javadesignpatterns/tree/master/observer) (in progress)
+- [Observer](https://github.com/gentaliti/javadesignpatterns/tree/master/observer) 
 - [State](https://github.com/gentaliti/javadesignpatterns/tree/master/state) (in progress)
-- [Strategy](https://github.com/gentaliti/javadesignpatterns/tree/master/strategy) (in progress)
+- [Strategy](https://github.com/gentaliti/javadesignpatterns/tree/master/strategy) 
 
 # Credits
 <b>Design Patterns: Elements of Reusable Object-Oriented Software</b> - Erich Gamma, John Vlissides, Ralph Johnson, and Richard Helm
