@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b35b28-1065-48f7-973f-94993815250a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observer/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observer/src/main/java/com/gentaliti/AppInit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observer/src/main/java/com/gentaliti/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observer/src/main/java/com/gentaliti/LCDDisplay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observer/src/main/java/com/gentaliti/SmartPhoneDisplay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observer/src/main/java/com/gentaliti/WeatherObservable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observer/src/main/java/com/gentaliti/WeatherObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observer/src/main/java/com/gentaliti/WeatherStation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observer/src/test/java/com/gentaliti/AppInitTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observer/src/test/java/com/gentaliti/WeatherStationTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/strategy/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/strategy/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sonar/.sonar_lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sonar/report-task.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adapter/target/adapter-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/adapter/target/adapter-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/target/command-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/command/target/command-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composite/target/composite-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/composite/target/composite-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decorator/target/decorator-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/decorator/target/decorator-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facade/target/facade-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/facade/target/facade-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/factory/target/factory-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/factory/target/factory-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iterator/target/iterator-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/iterator/target/iterator-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/observer/target/observer-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/observer/target/observer-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proxy/target/proxy-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/proxy/target/proxy-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/singleton/target/singleton-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/singleton/target/singleton-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/state/target/state-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/state/target/state-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strategy/target/test-classes/com/gentaliti/strategy/DuckTest.class" afterPath="$PROJECT_DIR$/strategy/target/test-classes/com/gentaliti/strategy/DuckTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-method/target/template-method-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/template-method/target/template-method-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adapter/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/adapter/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/command/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composite/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/composite/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decorator/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/decorator/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facade/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/facade/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/factory/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/factory/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iterator/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/iterator/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/observer/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/observer/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/observer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/observer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/observer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/observer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proxy/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/proxy/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/singleton/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/singleton/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/state/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/state/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strategy/pom.xml" afterPath="$PROJECT_DIR$/strategy/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-method/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/template-method/target/maven-archiver/pom.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/observer/src/main/resources/observer-problem.png" afterPath="$PROJECT_DIR$/observer/src/main/resources/images/observer-problem.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/observer/src/main/resources/observer-solution.PNG" afterPath="$PROJECT_DIR$/observer/src/main/resources/images/observer-solution.PNG" />
     </list>
     <ignored path="$PROJECT_DIR$/decorator/target/" />
     <ignored path="$PROJECT_DIR$/composite/target/" />
@@ -289,6 +246,23 @@
               <item name="javadesignpatterns" type="462c0819:PsiDirectoryNode" />
               <item name="observer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javadesignpatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javadesignpatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javadesignpatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javadesignpatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -365,6 +339,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.gentaliti" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\javadesignpatterns\observer\src\main\resources\images" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gentaliti" />
@@ -608,7 +585,7 @@
       <workItem from="1512843373244" duration="8385000" />
       <workItem from="1512853502110" duration="12304000" />
       <workItem from="1513797056551" duration="898000" />
-      <workItem from="1514038514818" duration="12999000" />
+      <workItem from="1514038514818" duration="13216000" />
     </task>
     <servers />
   </component>
@@ -645,11 +622,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39747000" />
+    <option name="totallyTimeSpent" value="39964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -665,7 +641,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3235725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3235725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
