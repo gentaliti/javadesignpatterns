@@ -61,13 +61,4 @@ public class WeatherStationTest {
         assertEquals(observers, weatherStation.getWeatherObservers());
     }
 
-
-    @Test
-    public void setWeatherObservers() {
-        List<WeatherObserver> observers = new ArrayList<>();
-        observers.add(new SmartPhoneDisplay());
-        weatherStation.setWeatherObservers(observers);
-        assertEquals(observers, weatherStation.getWeatherObservers());
-    }
-
 }
