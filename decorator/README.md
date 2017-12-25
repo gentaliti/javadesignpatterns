@@ -1,6 +1,6 @@
 # Decorator Pattern
 # Introduction
-Decorator pattern is used to extend functionality of an object rather than the entire class. By doing so we are satisfing two OO principles:
+Decorator pattern is used to extend functionality of an object rather than the entire class. By doing so we are satisfying two OO principles:
 
 - [Open-Closed principle](https://en.wikipedia.org/wiki/Open/closed_principle) - Classes should be open for extension, but closed for modification.
 - [Single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) - States that every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class. 
@@ -24,7 +24,9 @@ From the definition above, we see that the best way to solve this problem is to 
 
 ![alt text](https://github.com/gentaliti/javadesignpatterns/blob/master/decorator/src/main/resources/img/decorator-solution.PNG)
 
-From the implementation on the source code, if create an CaramelDecorator and pass an Espresso object to it, we are instantiating an Espresso with Caramel. When we call the getCost() method of that object we get cost of espresso + cost of caramel. <i>An analogy to this may be recursion. Where espresso is the base case, and when we call the getCost() of a decorator that calls the getCost() of subject(espresso in this case) and  adds it's cost to that result.</i>
+From the implementation on the source code, if we create an CaramelDecorator and pass an Espresso object to it, we are instantiating an Espresso with Caramel. When we call the getCost() method of that object we get cost of espresso + cost of caramel. 
+
+<i>An analogy to this may be recursion. Where espresso is the base case, and when we call the getCost() of a decorator that calls the getCost() of subject(espresso in this case) and  adds it's cost to that result.</i>
 
 # When to use this pattern?
 - to add responsibilities to individual objects dynamically and transparently, that is, without affecting other objects.
