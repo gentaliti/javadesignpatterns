@@ -5,10 +5,8 @@ package com.gentaliti;
  */
 public class CaramelDecorator extends AddonDecorator {
 
-    private Beverage beverage;
-
     public CaramelDecorator(Beverage beverage) {
-        this.beverage = beverage;
+        super(beverage);
     }
 
     @Override
@@ -18,6 +16,6 @@ public class CaramelDecorator extends AddonDecorator {
 
     @Override
     public String getDecription() {
-        return beverage.getDecription() + " + Caramel ";
+        return this.beverage.getDecription() + " + Caramel ";
     }
 }

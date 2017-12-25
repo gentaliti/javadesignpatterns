@@ -4,10 +4,9 @@ package com.gentaliti;
  * @author Gent Aliti <aliti.genti@gmail.com>
  */
 public class SoyDecorator extends AddonDecorator{
-    private Beverage beverage;
 
     public SoyDecorator(Beverage beverage) {
-        this.beverage = beverage;
+        super(beverage);
     }
 
     @Override

@@ -3,7 +3,7 @@ package com.gentaliti;
 /*
  * @author Gent Aliti <aliti.genti@gmail.com>
  */
-public abstract class Beverage {
-    public abstract String getDecription();
-    public abstract double getCost();
+public interface Beverage {
+    public String getDecription();
+    public double getCost();
 }
