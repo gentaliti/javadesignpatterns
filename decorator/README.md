@@ -21,6 +21,7 @@ Source: [Head First Design Patterns: A Brain-Friendly Guide](https://www.amazon.
 
 # The Solution
 From the definition above, we see that the best way to solve this problem is to find a way to start with a beverage (ex. Espresso) and extend (decorate) that beverage with Addons (condiments) at runtime. 
+
 ![alt text](https://github.com/gentaliti/javadesignpatterns/blob/master/strategy/src/main/resources/images/decorator-solution.PNG)
 
 From the implementation on the source code, if create an CaramelDecorator and pass an Espresso object to it, we are instantiating an Espresso with Caramel. When we call the getCost() method of that object we get cost of espresso + cost of caramel. <i>An analogy to this may be recursion. Where espresso is the base case, and when we call the getCost() of a decorator that calls the getCost() of subject(espresso in this case) and  adds it's cost to that result.</i>
@@ -38,13 +39,10 @@ An use case for decorator pattern is in <b>java.io.</b>
 Let's say we have some gzipped file that we want to read quickly. 
 
 - First open an InputStream: 
-
     ```FileInputStream fis = new FileInputStream("/objects.gz");```
 - We want speed, so let's buffer it in memory: 
-
     ``` BufferedInputStream bis = new BufferedInputStream(fis); ```
 - The file is gzipped, so we need to ungzip it:
-
     ``` GzipInputStream gis = new GzipInputStream(bis); ```
 - Now we can finally use it:
     ``` SomeObject someObject = (SomeObject) ois.readObject(); ```

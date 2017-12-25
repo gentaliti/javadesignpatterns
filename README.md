@@ -33,7 +33,7 @@ The ability to change the composition at runtime, adds flexibility to object com
 Structural patterns implemented here are:
 - [Adapter](https://github.com/gentaliti/javadesignpatterns/tree/master/adapter) (in progress)
 - [Composite](https://github.com/gentaliti/javadesignpatterns/tree/master/composite) (in progress)
-- [Decorator](https://github.com/gentaliti/javadesignpatterns/tree/master/decorator) (in progress)
+- [Decorator](https://github.com/gentaliti/javadesignpatterns/tree/master/decorator) 
 - [Facade](https://github.com/gentaliti/javadesignpatterns/tree/master/facade) (in progress)
 - [Proxy](https://github.com/gentaliti/javadesignpatterns/tree/master/proxy) (in progress)
 
