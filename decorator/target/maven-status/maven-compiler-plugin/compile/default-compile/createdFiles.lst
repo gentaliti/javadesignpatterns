@@ -1,0 +1,6 @@
+com\gentaliti\AppInit.class
+com\gentaliti\SoyDecorator.class
+com\gentaliti\AddonDecorator.class
+com\gentaliti\Beverage.class
+com\gentaliti\CaramelDecorator.class
+com\gentaliti\Espresso.class
