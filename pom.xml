@@ -21,6 +21,7 @@
         <module>state</module>
         <module>proxy</module>
         <module>strategy</module>
+        <module>builder</module>
     </modules>
     <properties>
         <log4j.version>1.2.17</log4j.version>

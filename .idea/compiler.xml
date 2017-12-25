@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="adapter" />
+        <module name="builder" />
         <module name="command" />
         <module name="composite" />
         <module name="decorator" />
@@ -23,6 +24,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="adapter" target="1.8" />
+      <module name="builder" target="1.8" />
       <module name="command" target="1.8" />
       <module name="commonconfig" target="1.5" />
       <module name="composite" target="1.8" />

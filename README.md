@@ -20,10 +20,10 @@ They deal with object creation mechanisms, while hiding the creation logic. This
 
 Creational patterns implemented here are:
 - [Abstract Factory](https://github.com/gentaliti/javadesignpatterns/tree/master/factory) (in progress)
-- [Builder](https://github.com/gentaliti/javadesignpatterns/tree/master/builder) (in progress)
+- [Builder](https://github.com/gentaliti/javadesignpatterns/tree/master/builder)
 - [Factory Method](https://github.com/gentaliti/javadesignpatterns/tree/master/factory) (in progress)
 - [Prototype](https://github.com/gentaliti/javadesignpatterns/tree/master/prototype) (in progress)
-- [Singleton](https://github.com/gentaliti/javadesignpatterns/tree/master/singleton) (in progress)
+- [Singleton](https://github.com/gentaliti/javadesignpatterns/tree/master/singleton) 
 
 ## Structural Patterns
 Structural patterns are concerned with how classes and objects are composed to form larger structures. Rather than composing interfaces or implemetations, these patterns describe ways to compose objects to realize new functionality.
