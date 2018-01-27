@@ -13,7 +13,7 @@ public class SimpleGameObstacleCreator implements GameObstacleFactory {
             return new Comet();
         }
         else{
-            throw new IllegalArgumentException("Not supported com.gentaliti.GameObstacle Type");
+            throw new IllegalArgumentException("Not supported GameObstacleType");
         }
     }
 }

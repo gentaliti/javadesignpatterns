@@ -28,14 +28,12 @@ public class SimpleGameObstacleCreatorTest {
     public void createComet() throws Exception {
         GameObstacle gameObstacle = factory.createGameObstacle(GameObstacleType.COMET);
         assertNotNull(gameObstacle);
-        assertNotSame(new Asteroid(), gameObstacle);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void createGameObstacleException() throws Exception {
         GameObstacle gameObstacle = factory.createGameObstacle(GameObstacleType.UNDEFINED);
         assertNotNull(gameObstacle);
-        assertNotSame(new Asteroid(), gameObstacle);
     }
 
 }
