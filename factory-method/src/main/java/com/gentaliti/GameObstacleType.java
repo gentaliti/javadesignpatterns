@@ -5,5 +5,6 @@ package com.gentaliti;
  * */
 public enum GameObstacleType {
     ASTEROID,
-    COMET
+    COMET,
+    UNDEFINED
 }
