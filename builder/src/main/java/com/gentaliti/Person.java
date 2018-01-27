@@ -56,6 +56,20 @@ public class Person {
         return state;
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "lastName='" + lastName + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", middleName='" + middleName + '\'' +
+                ", salary=" + salary +
+                ", gender='" + gender + '\'' +
+                ", streetAddress='" + streetAddress + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                '}';
+    }
+
     public static class Builder {
         private String lastName;
         private String firstName;
