@@ -3,7 +3,7 @@
 
 Factory Method is a creational pattern in which subclasses are responsible to create an object. 
 
-It is related to the idea on which libraries work: a library uses abstract classes for defining and maintaining relations between objects. The library knows when an object needs to be created, but now what kind of concrete object it should create, this being specific to the application using the library.
+It is related to the idea on which libraries work: a library uses abstract classes for defining and maintaining relations between objects. The library knows when an object needs to be created, but not what kind of concrete object it should create, this being specific to the application using the library.
 
 <blockquote>
 Define an interface for creating an object, but let subclasses decide which class to
@@ -39,4 +39,4 @@ Use this pattern when:
 # Known uses
 - java.util.Calendar
 - java.text.NumberFormat
-- java.text.NumberFormat
+- java.util.ResourceBundle#getBundle
