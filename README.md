@@ -19,9 +19,9 @@ Creational design patterns abstract the instantiation process.
 They deal with object creation mechanisms, while hiding the creation logic. This provides us flexibility for creating objects based on different use cases.
 
 Creational patterns implemented here are:
-- [Abstract Factory](https://github.com/gentaliti/javadesignpatterns/tree/master/factory) (in progress)
+- [Factory Method](https://github.com/gentaliti/javadesignpatterns/tree/master/factory-method)
+- [Abstract Factory](https://github.com/gentaliti/javadesignpatterns/tree/master/abstract-factory) (in progress)
 - [Builder](https://github.com/gentaliti/javadesignpatterns/tree/master/builder)
-- [Factory Method](https://github.com/gentaliti/javadesignpatterns/tree/master/factory) (in progress)
 - [Prototype](https://github.com/gentaliti/javadesignpatterns/tree/master/prototype) (in progress)
 - [Singleton](https://github.com/gentaliti/javadesignpatterns/tree/master/singleton) 
 
