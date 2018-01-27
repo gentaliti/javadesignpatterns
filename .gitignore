@@ -1,0 +1,13 @@
+target
+.metadata
+.settings
+.classpath
+.project
+*.class
+*.jar
+*.war
+*.ear
+.idea
+*.iml
+*.swp
+*.log
