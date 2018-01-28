@@ -29,7 +29,7 @@ Now lets get to the example which is implemented on the code. Consider you are d
 
 
 # When to use this pattern?
-The factory method is one of the most used and pattern. When you design an application, be careful to decide if you really need a factory to create objects. It may be just an unnecessary complexity in your application.
+The factory method is one of the most used design pattern. When you design an application, be careful to decide if you really need a factory to create objects. It may be just an unnecessary complexity in your application.
 
 Use this pattern when: 
 - The main reason why this pattern is used is that it introduces a separation between the application and a family of classes
