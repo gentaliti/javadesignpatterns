@@ -1,4 +1,4 @@
-# Strategy Pattern
+# Singleton Pattern
 # Introduction
 Singleton is a convention for ensuring that one and only object is instantiated for a given class. 
 <blockquote>
