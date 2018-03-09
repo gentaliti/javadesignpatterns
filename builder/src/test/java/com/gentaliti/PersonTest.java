@@ -9,10 +9,9 @@ import static org.mockito.Mockito.*;
  * @author Gent Aliti <aliti.genti@gmail.com>
  */
 public class PersonTest {
-
     @Test
     public void test() {
-        Person person = new Person.Builder().setFirstName("Test").setLastName("Test").setCity("Prishtina").build();
+        Person person = Person.builder().withFirstName("Test").withLastName("Test").withCity("Prishtina").build();
         Assert.assertNotNull(person);
         Assert.assertEquals("Test", person.getFirstName());
         Assert.assertEquals("Test", person.getLastName());
@@ -25,7 +24,7 @@ public class PersonTest {
 
     @Test
     public void testMethods() {
-        Person person = new Person.Builder().setGender("Test").setSalary(12222).setStreetAddress("Test").build();
+        Person person = Person.builder().withGender("Test").withSalary(12222).withStreetAddress("Test").build();
         Assert.assertNotNull(person);
         Assert.assertEquals("Test", person.getGender());
         Assert.assertEquals(12222, person.getSalary());

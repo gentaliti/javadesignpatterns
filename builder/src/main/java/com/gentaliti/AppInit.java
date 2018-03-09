@@ -7,11 +7,10 @@ import org.apache.log4j.Logger;
  * @author Gent Aliti <aliti.genti@gmail.com>
  * */
 public class AppInit {
-
     private static Logger logger = Logger.getLogger(AppInit.class);
 
     public static void main(String[] args) {
-        Person person = new Person.Builder().setFirstName("John").setLastName("Doe").build();
+        Person person = Person.builder().withFirstName("John").withLastName("Doe").build();
         logger.info(person.toString());
     }
 }

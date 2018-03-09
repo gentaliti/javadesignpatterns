@@ -4,24 +4,20 @@ package com.gentaliti;
  * @author Gent Aliti <aliti.genti@gmail.com>
  */
 public class Person {
-    private final String lastName;
-    private final String firstName;
-    private final String middleName;
-    private final int salary;
-    private final String gender;
-    private final String streetAddress;
-    private final String city;
-    private final String state;
+    private String lastName;
+    private String firstName;
+    private String middleName;
+    private int salary;
+    private String gender;
+    private String streetAddress;
+    private String city;
+    private String state;
 
-    public Person(Builder builder) {
-        this.lastName = builder.lastName;
-        this.firstName = builder.firstName;
-        this.middleName = builder.middleName;
-        this.salary = builder.salary;
-        this.gender = builder.gender;
-        this.streetAddress = builder.streetAddress;
-        this.city = builder.city;
-        this.state = builder.state;
+    private Person() {
+    }
+
+    public static PersonBuilder builder() {
+        return new PersonBuilder();
     }
 
     public String getLastName() {
@@ -56,21 +52,7 @@ public class Person {
         return state;
     }
 
-    @Override
-    public String toString() {
-        return "Person{" +
-                "lastName='" + lastName + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", middleName='" + middleName + '\'' +
-                ", salary=" + salary +
-                ", gender='" + gender + '\'' +
-                ", streetAddress='" + streetAddress + '\'' +
-                ", city='" + city + '\'' +
-                ", state='" + state + '\'' +
-                '}';
-    }
-
-    public static class Builder {
+    public static final class PersonBuilder {
         private String lastName;
         private String firstName;
         private String middleName;
@@ -80,48 +62,60 @@ public class Person {
         private String city;
         private String state;
 
-        public Builder setLastName(String lastName) {
+        private PersonBuilder() {
+        }
+
+        public PersonBuilder withLastName(String lastName) {
             this.lastName = lastName;
             return this;
         }
 
-        public Builder setFirstName(String firstName) {
+        public PersonBuilder withFirstName(String firstName) {
             this.firstName = firstName;
             return this;
         }
 
-        public Builder setMiddleName(String middleName) {
+        public PersonBuilder withMiddleName(String middleName) {
             this.middleName = middleName;
             return this;
         }
 
-        public Builder setSalary(int salary) {
+        public PersonBuilder withSalary(int salary) {
             this.salary = salary;
             return this;
         }
 
-        public Builder setGender(String gender) {
+        public PersonBuilder withGender(String gender) {
             this.gender = gender;
             return this;
         }
 
-        public Builder setStreetAddress(String streetAddress) {
+        public PersonBuilder withStreetAddress(String streetAddress) {
             this.streetAddress = streetAddress;
             return this;
         }
 
-        public Builder setCity(String city) {
+        public PersonBuilder withCity(String city) {
             this.city = city;
             return this;
         }
 
-        public Builder setState(String state) {
+        public PersonBuilder withState(String state) {
             this.state = state;
             return this;
         }
 
         public Person build() {
-            return new Person(this);
+            Person person = new Person();
+            person.salary = this.salary;
+            person.city = this.city;
+            person.firstName = this.firstName;
+            person.lastName = this.lastName;
+            person.gender = this.gender;
+            person.streetAddress = this.streetAddress;
+            person.state = this.state;
+            person.middleName = this.middleName;
+            return person;
         }
     }
 }
